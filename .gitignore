@@ -51,4 +51,6 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-.vscode/
+tcp_chat/.vscode/launch.json
+tcp_chat/.vscode/tasks.json
+
