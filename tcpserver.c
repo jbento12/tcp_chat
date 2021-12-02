@@ -172,7 +172,7 @@ void *threadfunction_time(void *arg)
 		{	
 			strcpy(buffer, client->name);
 			strcat(buffer, " status is : ");
-			strcat(buffer, "ONLINE");
+			strcat(buffer, "AFK");
 			printf("%s\n", buffer);
 
 		}
