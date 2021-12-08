@@ -2,10 +2,13 @@
 
 STEPS:
 
-1. Compile 3 files individually;  
+1. Compile 2 files individually;  
 2. Run server with a specific port as a paramater( example : ./tcpserver 3000);
 3. run client passing the IP address of the server and the port as parameters (example : ./tcpclient 127.0.0.1 3000)
 
+ALTERNATIVE:
+1. There is a raspberry client in the tags that you can run with the command make and then compile the tcp_chat_rasp.c file for the raspberry pi 4 b and run it
+2. The green led in the board should blink every time it receives a message
 
 
 FUNCTIONALITIES: 
